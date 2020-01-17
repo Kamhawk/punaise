@@ -1,6 +1,6 @@
 <template>
   <!-- Contact Section -->
-  <section id="contact" class="contact-section bg-black">
+  <section id="contact" class="contact-section bg-secondary-custom">
     <div class="container">
       <div class="row">
         <div class="col-md-4 mb-3 mb-md-0">
@@ -40,67 +40,38 @@
           </div>
         </div>
       </div>
-
-      <social-sharing
-        url="https://vuejs.org/"
-        title="The Progressive JavaScript Framework"
-        description="Intuitive, Fast and Composable MVVM for building interactive interfaces."
-        quote="Vue is a progressive framework for building user interfaces."
-        hashtags="vuejs,javascript,framework"
-        twitter-user="vuejs"
-        inline-template
-      >
-        <div class="social d-flex justify-content-center">
-          <div>
-            <network network="email">
-              <i class="fa fa-envelope"></i>Email
-            </network>
-          </div>
-          <div>
-            <network network="facebook">
-              <i class="fa fa-facebook"></i>Facebook
-            </network>
-          </div>
-          <div>
-            <network network="googleplus">
-              <i class="fa fa-google-plus"></i>Google+
-            </network>
-          </div>
-          <div>
-            <network network="linkedin">
-              <i class="fa fa-linkedin"></i>LinkedIn
-            </network>
-          </div>
-          <div>
-            <network network="pinterest">
-              <i class="fa fa-pinterest"></i>Pinterest
-            </network>
-          </div>
-          <div>
-            <network network="skype">
-              <i class="fa fa-skype"></i>Skype
-            </network>
-          </div>
-          <div>
-            <network network="sms">
-              <i class="fa fa-commenting-o"></i>SMS
-            </network>
-          </div>
-          <div>
-            <network network="telegram">
-              <i class="fa fa-telegram"></i>Telegram
-            </network>
-          </div>
-          <div>
-            <network network="twitter">
-              <i class="fa fa-twitter"></i>Twitter
-            </network>
-          </div>
-          <div>
-            <network network="whatsapp">
-              <i class="fa fa-whatsapp"></i>Whatsapp
-            </network>
-          </div>
+      <social-sharing url="https://vuejs.org/" inline-template>
+        <div>
+          <network network="facebook">
+            <div class="container">
+              <div class="row">
+                <i class="fa fa-fw fa-facebook"></i>
+              </div>
+              <div class="row">
+                Facebook
+              </div>
+            </div>
+          </network>
+          <network network="googleplus">
+            <i class="fa fa-fw fa-google-plus"></i> Google +
+          </network>
+          <network network="linkedin">
+            <i class="fa fa-fw fa-linkedin"></i> LinkedIn
+          </network>
+          <network network="pinterest">
+            <i class="fa fa-fw fa-pinterest"></i> Pinterest
+          </network>
+          <network network="reddit">
+            <i class="fa fa-fw fa-reddit"></i> Reddit
+          </network>
+          <network network="twitter">
+            <i class="fa fa-fw fa-twitter"></i> Twitter
+          </network>
+          <network network="vk"> <i class="fa fa-vk"></i> VKontakte </network>
+          <network network="weibo"> <i class="fa fa-weibo"></i> Weibo </network>
+          <network network="whatsapp">
+            <i class="fa fa-fw fa-whatsapp"></i> Whatsapp
+          </network>
         </div>
       </social-sharing>
     </div>
@@ -124,4 +95,9 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.social-list-item {
+  width: fit-content;
+  color: yellow;
+}
+</style>

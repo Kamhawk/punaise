@@ -6,8 +6,6 @@
 }
 
 
-
-
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
@@ -19,11 +17,11 @@
 }
 
 .btn-primary {
-  background-color: #129aab;
+  background-color: #1d2b4d;
 }
 
 .btn-primary:hover {
-  background-color: #1d2b4d;
+  background-color: #f0e5d2;
 }
 
 .btn-primary:focus {
@@ -32,12 +30,11 @@
 }
 
 .btn-primary:active {
-  background-color: #f0e5d2 !important;
+  background-color: #1d2b4d !important;
 }
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #badfdc 0%, rgba(22, 22, 22, 0.2) 95%, rgba(22, 22, 22, 0.2) 100%);
 }
 
 .about-section p {
@@ -68,6 +65,7 @@
   .projects-section .project-text {
     padding: 5rem;
   }
+
   .projects-section .project-text hr {
     border-color: #90cec3;
     border-width: .25rem;
@@ -160,16 +158,29 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #badfdc !important;
+  background-color: #f0e5d2 !important;
 }
 
-.text-primary-custom{
+.text-primary-custom {
   color: #1d2b4d !important;
 }
-.text-secondary-custom{
-  color: #1d2b4d !important;
+
+.text-secondary-custom {
+  color: #f0e5d2 !important;
+}
+
+.bg-primary-custom {
+  color: #f0e5d2 !important;
+  background: #1d2b4d;
+}
+
+.bg-secondary-custom {
+  background: #f0e5d2 !important;
+  color: #1d2b4d;
 }
 
 footer {
   padding: 5rem 0;
 }
+
+

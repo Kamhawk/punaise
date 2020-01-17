@@ -4,20 +4,20 @@
       <div class="mx-auto text-center">
         <carousel-3d>
           <slide :index="0">
-            <img src="@/assets/pictos/far.svg" />
+            <img style="height: 100%" src="@/assets/pictures/hands.jpg" />
           </slide>
           <slide :index="1">
-            <img src="@/assets/pictos/picto_3.svg" />
+            <img src="@/assets/pictures/idea.jpg" />
           </slide>
           <slide :index="2">
-            <img src="@/assets/pictos/picto_11.svg" />
+            <img src="@/assets/pictures/hands.jpg" />
           </slide>
           <slide :index="3">
-            <img src="@/assets/pictos/picto_12.svg" />
+            <img src="@/assets/pictures/hands.jpg" />
           </slide>
         </carousel-3d>
 
-        <h2 class="text-primary-custom mx-auto mt-2 mb-5">
+        <h2 class="text-secondary-custom mx-auto mt-2 mb-5">
           {{ localsoustitre }}
         </h2>
         <a href="#about" class="btn btn-primary js-scroll-trigger"
@@ -59,6 +59,10 @@ export default {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+}
+
+img {
+  height: 100%;
 }
 
 .masthead h1 {

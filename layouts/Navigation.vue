@@ -64,7 +64,7 @@
   color: #1d2b4d;
 }
 .custom-navbar {
-  background: #129aab;
+  background: #badfdc;
   color: #1d2b4d;
   padding: 0.15rem;
 }
