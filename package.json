@@ -1,0 +1,50 @@
+{
+  "name": "punaise-app",
+  "version": "1.0.0",
+  "description": "Punaise de punaise",
+  "author": "Kamel E.K",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-brands-svg-icons": "^5.12.0",
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "@fortawesome/vue-fontawesome": "^0.1.9",
+    "@nuxtjs/axios": "^5.3.6",
+    "bootstrap": "^4.4.1",
+    "bootstrap-vue": "^2.2.2",
+    "flexbox": "0.0.3",
+    "jquery": "^3.4.1",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "nuxt": "^2.0.0",
+    "nuxt-fontawesome": "^0.4.0",
+    "popper.js": "^1.16.0",
+    "sass": "^1.24.4",
+    "sass-loader": "^8.0.2",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
+    "vue-carousel-3d": "^0.2.0",
+    "vue-flashcard": "^1.1.6",
+    "vue-fullcalendar": "^1.0.9",
+    "vue-info-card": "^0.1.3",
+    "vue-navigation-bar": "^2.0.0",
+    "vue-social-sharing": "^2.4.7"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^1.0.1",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.4"
+  }
+}
