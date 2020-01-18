@@ -27,6 +27,16 @@ export default {
         type: 'text/css',
         href:
           'http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css'
+      },
+      {
+        rel: 'stylesheet',
+        type: 'text/css',
+        href: 'https://unpkg.com/vue2-animate/dist/vue2-animate.min.css'
+      },
+      {
+        rel: 'stylesheet',
+        type: 'text/css',
+        href: 'https://unpkg.com/aos@next/dist/aos.css'
       }
     ]
   },

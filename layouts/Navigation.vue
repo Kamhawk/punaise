@@ -8,12 +8,12 @@
       variant="faded"
       class="custom-navbar"
     >
-      <b-navbar-brand href="/#page-top"
-        ><img
+      <b-navbar-brand href="/#page-top">
+        <img
+          alt="Kitten"
+          class="d-inline-block align-top"
           src="@/assets/pictos/debana.svg"
           width="40px"
-          class="d-inline-block align-top"
-          alt="Kitten"
         />
       </b-navbar-brand>
 
@@ -21,7 +21,7 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item href="/#about">Nous connaitre</b-nav-item>
+          <b-nav-item href="/#about">Services</b-nav-item>
           <b-nav-item href="/team">Notre équipe</b-nav-item>
           <b-nav-item href="/tarifs">Tarifs</b-nav-item>
           <b-nav-item href="/blog">Blog</b-nav-item>

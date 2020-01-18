@@ -20,6 +20,7 @@
         <h2 class="text-secondary-custom mx-auto mt-2 mb-5">
           {{ localsoustitre }}
         </h2>
+
         <a href="#about" class="btn btn-primary js-scroll-trigger"
           >En savoir plus</a
         >

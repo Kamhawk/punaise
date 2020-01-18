@@ -1,6 +1,6 @@
 <template>
   <section id="about" class="about-section bg-secondary-custom text-center">
-    <div class="container">
+    <div data-aos="fade-up" data-aos-duration="1500" class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2 class="text-primary-custom mb-4">UN MILLIER</h2>

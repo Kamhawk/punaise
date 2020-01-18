@@ -3,7 +3,11 @@
     <section id="projects" class="projects-section bg-light">
       <div class="container">
         <!-- Featured Project Row -->
-        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          class="row align-items-center no-gutters mb-4 mb-lg-5"
+        >
           <div class="col-xl-8 col-lg-7">
             <img
               class="img-fluid mb-3 mb-lg-0"
@@ -11,7 +15,11 @@
               alt=""
             />
           </div>
-          <div class="col-xl-4 col-lg-5">
+          <div
+            data-aos="fade-left"
+            data-aos-duration="1500"
+            class="col-xl-4 col-lg-5"
+          >
             <div class="featured-text text-center text-lg-left">
               <h4>Notre mission</h4>
               <p class="text-black-50 mb-0">
@@ -24,10 +32,10 @@
 
         <!-- Project One Row -->
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div class="col-lg-6">
+          <div data-aos="flip-right" data-aos-duration="1500" class="col-lg-6">
             <img class="img-fluid" src="@/assets/pictos/kesha.svg" alt="" />
           </div>
-          <div class="col-lg-6">
+          <div data-aos="flip-left" data-aos-duration="1500" class="col-lg-6">
             <div class="bg-black text-center h-100 project">
               <div class="d-flex h-100">
                 <div
@@ -48,12 +56,16 @@
 
         <!-- Project Two Row -->
         <div class="row justify-content-center no-gutters">
-          <div class="col-lg-6">
+          <div data-aos="flip-right" data-aos-duration="1500" class="col-lg-6">
             <img class="img-fluid" src="@/assets/pictos/spirateur.svg" alt="" />
           </div>
           <div class="col-lg-6 order-lg-first">
             <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
+              <div
+                data-aos="flip-left"
+                data-aos-duration="1500"
+                class="d-flex h-100"
+              >
                 <div
                   class="project-text w-100 my-auto text-center text-lg-right"
                 >
