@@ -1,29 +1,38 @@
 <template>
   <header class="masthead">
     <div id="page-top" class="container d-flex h-100 align-items-center">
-      <div class="mx-auto text-center">
-        <carousel-3d>
-          <slide :index="0">
-            <img style="height: 100%" src="@/assets/pictures/hands.jpg" />
-          </slide>
-          <slide :index="1">
-            <img src="@/assets/pictures/idea.jpg" />
-          </slide>
-          <slide :index="2">
-            <img src="@/assets/pictures/hands.jpg" />
-          </slide>
-          <slide :index="3">
-            <img src="@/assets/pictures/hands.jpg" />
-          </slide>
-        </carousel-3d>
+      <div
+        class="w-100 d-flex flex-column justify-content-center align-items-center"
+      >
+        <div class="p-2">
+          <img style="width: 300px" src="@/assets/logo/Logo_punaise.svg" />
+        </div>
+        <div class="p-2">
+          <div class="mx-auto text-center">
+            <carousel-3d>
+              <slide :index="0">
+                <img style="height: 100%" src="@/assets/pictures/hands.jpg" />
+              </slide>
+              <slide :index="1">
+                <img src="@/assets/pictures/idea.jpg" />
+              </slide>
+              <slide :index="2">
+                <img src="@/assets/pictures/hands.jpg" />
+              </slide>
+              <slide :index="3">
+                <img src="@/assets/pictures/hands.jpg" />
+              </slide>
+            </carousel-3d>
 
-        <h2 class="text-secondary-custom mx-auto mt-2 mb-5">
-          {{ localsoustitre }}
-        </h2>
+            <h2 class="text-secondary-custom mx-auto mt-2 mb-5">
+              {{ localsoustitre }}
+            </h2>
 
-        <a href="#about" class="btn btn-primary js-scroll-trigger"
-          >En savoir plus</a
-        >
+            <a href="#about" class="btn btn-primary js-scroll-trigger"
+              >En savoir plus</a
+            >
+          </div>
+        </div>
       </div>
     </div>
   </header>
@@ -52,7 +61,7 @@ export default {
   width: 100%;
   height: auto;
   min-height: 35rem;
-  padding: 15rem 0;
+  padding: 60px;
   background: #badfdc;
   background-image: url('../assets/landscape/homme-voiture-blurred.jpg');
   /*background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("./punaise_banniere.jpeg");*/

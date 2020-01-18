@@ -12,7 +12,7 @@
         <img
           alt="Kitten"
           class="d-inline-block align-top"
-          src="@/assets/pictos/debana.svg"
+          src="@/assets/logo/logo_2.svg"
           width="40px"
         />
       </b-navbar-brand>
