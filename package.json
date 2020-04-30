@@ -21,7 +21,7 @@
     "bootstrap": "^4.4.1",
     "bootstrap-vue": "^2.2.2",
     "flexbox": "0.0.3",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
     "nuxt": "^2.0.0",
